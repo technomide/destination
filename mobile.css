@@ -1,0 +1,263 @@
+@import url("./style.css");
+
+/* 
+=========================
+Header
+=========================
+*/
+#header{
+    min-height: 130px;
+    padding: 0px 10px;
+}
+header .container{
+    min-height: 103px;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+#header .container .child:nth-child(1) .nav-logo{
+    height: 40px;
+    width: 70px;
+}
+#header .container .child:nth-child(2){
+    width: 100%;
+}
+#header .container .child:nth-child(2) ul li{
+    margin: 10px;
+}
+#header .container .child:nth-child(2) ul li a{
+    font-size: 0.8em;
+}
+#header .container .child:nth-child(3){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header .container .child:nth-child(3) a i{
+    font-size: 0.9em;
+}
+/* 
+=======================
+ShowCase
+=======================
+ */
+ #second-section{
+     min-height: 330px;
+    background-position: center;
+ }
+ #second-section > :nth-child(1){
+     padding: 30px;
+ }
+ #second-section h1{
+     font-weight: normal;
+     font-size: 1.4em;
+ }
+/* 
+=======================
+Third Section
+=======================
+*/
+#main-third{
+    height: 330px;
+    padding: 0px 10px;
+}
+#main-third #main-contant > :nth-child(1){
+    height: 300px;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(1) img{
+    height: 300px;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(1){
+    width: 65%;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(2){
+    width: 35%;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(2) > :nth-child(1){
+    height: 125px;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(2) > :nth-child(1) h1{
+    font-size: 0.8em;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(2) > :nth-child(1) h2 a{
+    font-size: 0.7em;
+    font-weight: normal;
+}
+#main-third #main-contant > :nth-child(1) > :nth-child(2) > :nth-child(1) a h1{
+    padding-bottom: 5px;
+    width: 107px;
+    font-size: 0.8em;  
+}
+/* 
+=============================
+Fourth Section
+=============================
+ */
+ #main-fourth{
+     padding: 0px;
+ }
+ #main-fourth h3{
+     font-size: 1em;
+     line-height: 32px;
+ }
+ #main-fourth .container{
+     height: 1300px;
+     width:100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin-top: 20px;
+ }
+ .cards-fourth{
+    max-width: 100%;
+ }
+ #main-fourth .cards-fourth {
+     width: 75%;
+ }
+ .cards-fourth{
+    height: 400px;
+ }
+ #main-fourth .h1{
+     font-size: 1.2em;
+     font-weight: normal;
+ }
+ #main-fourth .cards-fourth .contant h4{
+     line-height: 94px;
+ }
+ #main-fourth .cards-fourth .contant h1{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+ }
+ .cards-fourth .icons{
+     height: 74px;
+ }
+ #main-fourth hr{
+     margin-top: 4px;
+ }
+ #main-fourth .last-read{
+     font-weight: normal;
+ }
+/* 
+==========================
+Fifth Section
+==========================
+*/
+#main-fifth{
+    height: 600px;
+}
+.fifth-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.fifth-container .box{
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+}
+.fifth-container .box .content1{
+    width: 70%;
+    height: 44%;
+    margin-bottom: 40px;
+}
+.fifth-container .box .content1 .icons{
+    height: 80px;
+}
+.fifth-container .box .content1 .icons i{
+    font-size: 2.4em;
+}
+.fifth-container .box .content1 .icons > :nth-child(2){
+    width: auto;
+    font-size: 0.77em;
+    padding: 8px 9px;
+}
+.fifth-container .box .content1 > :nth-child(2) h2{
+    font-size: 1em;
+}
+/* 
+===========================
+Sixth Section
+===========================
+*/
+#main-6 .wrapper{
+    width: 100%;
+    min-height: 880px;
+}
+#main-6 .wrapper a h1{
+    font-weight: normal;
+}
+#main-6 .main-card{
+    width: 100%;
+    min-height: 1033px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px 10px;
+}
+#main-6 .contant-main{
+    height: 86%;
+}
+#main-6 .main-card > :nth-child(2){
+    height: 390px;
+}
+#main-6 .main-card > :nth-child(1){
+    height: 534px;
+    width: 90%;
+}
+
+#main-6 .card{
+    width: 100%;
+}
+#main-6 .cards-col{
+    width: 100%;
+}
+#main-6 .cards-col:nth-child(1){
+    min-height: 230px;
+}
+#main-6 .contant-main .icons a i{
+    font-size: 0.9em;
+}
+#main-6 .contant-main .contant ul{
+    width: 134px;
+}
+#main-6 .contant ul li a i{
+    font-size: 2.3em;
+}
+#main-6 .wrapper h4{
+    line-height: 32px;
+}
+/* 
+========================
+Footer
+========================
+*/
+footer{
+    margin-top: 20px;
+    min-height: 531px;
+}
+#main-contant .contant >:nth-child(1) h2{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0px 26px;
+    font-weight: normal;
+}
+#main-contant .contant >:nth-child(2) a{
+    font-size: 0.8em;
+    padding: 10px 20px;
+}
+#main-contant .contant{
+    min-height: 408px;
+}
+#main-contant .contant >:nth-child(4) ul li a i{
+    font-size: 1.6em;
+}
+#main-contant .contant >:nth-child(3) ul li a{
+    font-size: 1em;
+}
+  
+

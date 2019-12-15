@@ -1,0 +1,61 @@
+@import url("./style.css");
+/* 
+=================
+Header
+=================
+ */
+.container{
+    width: 738px;
+}
+#header .child:nth-child(2) ul li{
+    margin-left: 21px;
+}
+/* 
+==================
+Fourth Section
+==================
+*/
+#main-fourth{
+    padding: 0px;
+ }
+ .cards-fourth:nth-child(1){
+     background-position: center;
+ }
+ .cards-fourth:nth-child(2){
+    background-position: center;
+ }
+ .cards-fourth:nth-child(3){
+    background-position: center;
+ }
+ .cards-fourth{
+    max-width: 31.5%;
+ }
+/* 
+==================
+Sixth Section
+==================
+*/
+#main-6 .wrapper{
+    width: 738px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-6 .main-card{
+    width: 100%;
+}
+#main-6 .card{
+    width: 320px;
+}
+#main-6 .cards-col:nth-child(1){
+    min-height: 265px;
+}
+#main-6 .cards-col:nth-child(2){
+min-height: 265px;
+}
+#main-6 .contant-main .contant ul{
+    width: 139px;
+}
+

@@ -430,6 +430,7 @@ footer{
 	color: #fff;
 	transform: scale(1.2);
 }
+
 #main-contant .contant >:nth-child(3) ul{
 	display: flex;
 	list-style: none;
@@ -437,9 +438,16 @@ footer{
 #main-contant .contant >:nth-child(3) ul li{
 	margin:0px 15px;
 }
+#main-contant .contant >:nth-child(4){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* display:none; */
+}
 #main-contant .contant >:nth-child(4) ul{
 	display: flex;
 	list-style: none;	
+	margin-bottom: 30px;
 }
 #main-contant .contant >:nth-child(4) ul li{
 	margin: 0px 15px;

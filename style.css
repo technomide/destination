@@ -43,7 +43,7 @@ Navigation Section
 }
 .container{
 	margin: auto;
-	width: 950px;
+	max-width: 950px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -146,7 +146,7 @@ Fourth Section
 ===========================
 */
 #main-fourth{
-	width: 100%;
+	/* width: 100%; */
 	min-height: 800px;
 	display: flex;
 	flex-direction: column;
@@ -154,6 +154,7 @@ Fourth Section
 	align-items: center;
 	justify-content: center;
 }
+
 #main-fourth h3{
 	line-height: 49px;
 }
@@ -163,7 +164,7 @@ Fourth Section
 .cards-fourth{
 	height: 500px;
 	padding: 0 25px;
-	max-width: 30.5%;
+	width: 30%;
 	background: #eee;
 	display: flex;
 	align-items: flex-end;
@@ -278,7 +279,6 @@ Sixth Section
 =============================
  */
 #main-6{
-	width: 100%;
 	min-height: 800px;
 	display: flex;
 	justify-content: center;
@@ -286,20 +286,20 @@ Sixth Section
 	align-items: center;
 }
 #main-6 .wrapper{
-	width: 950px;
+	width: 100%;
 }
 #main-6 .wrapper h4{
 	line-height: 30px;
 }
 #main-6 .main-card{
 	min-height: 500px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding: 40px;
-	width: 930px;
 }
 #main-6 .card{
-	width: 414px;
+	width: 45%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -307,6 +307,7 @@ Sixth Section
 }
 #main-6 .card:nth-child(2){
 	background: url(image/tyler-nix-q-motCAvPBM-unsplash.jpg);
+	width: 45%;
 	background-size: cover;
 	background-position: center center;
 	display: flex;
@@ -314,6 +315,7 @@ Sixth Section
 	align-items: center; 
 }
 #main-6 .cards-col{
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
